@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@android:color/black"
+        android:elevation="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:src="@drawable/back_white" />
+
+        <com.taxialaan.drivers.Utilities.MyBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/wallet"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <com.taxialaan.drivers.views.CellSettingView
+        android:id="@+id/accountsChargeCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cell_icon="@drawable/ic_credit_card_black_24dp"
+        app:cell_text="@string/accounts_charge"/>
+
+    <com.taxialaan.drivers.views.CellSettingView
+        android:id="@+id/sendMoneyCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cell_icon="@drawable/ic_send_black_24dp"
+        app:cell_text="@string/send_money"/>
+
+
+    <com.taxialaan.drivers.views.CellSettingView
+        android:id="@+id/sendMoneyRequestCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cell_icon="@drawable/ic_move_to_inbox_black_24dp"
+        app:cell_text="@string/withdraw_amount"/>
+
+    <com.taxialaan.drivers.views.CellSettingView
+        android:id="@+id/transactionCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cell_icon="@drawable/ic_playlist_add_check_black_24dp"
+        app:cell_text="@string/transactions_list"/>
+
+
+
+
+
+</LinearLayout>

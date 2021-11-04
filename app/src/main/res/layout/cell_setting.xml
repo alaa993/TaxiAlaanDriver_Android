@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:minHeight="@dimen/_55sdp"
+    android:id="@+id/parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/_55sdp"
+        android:id="@+id/imgIcon"
+        android:minHeight="@dimen/_55sdp"
+        android:scaleType="centerInside"
+        android:src="@drawable/back_icon" />
+
+    <com.taxialaan.drivers.Utilities.MyBoldTextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/txtName"
+        android:gravity="center|start"
+        android:paddingStart="@dimen/_10sdp"
+        android:text="Add Money"
+        android:textColor="@color/black_text_color"
+        android:textSize="17sp" />
+
+
+</LinearLayout>

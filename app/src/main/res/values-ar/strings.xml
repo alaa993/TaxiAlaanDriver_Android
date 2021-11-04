@@ -1,0 +1,239 @@
+﻿<resources>
+    <string name="app_name">قائمة السائقيين تاكسي الآن</string>
+
+
+
+    <string name="successful_operation">عملية ناجحة</string>
+    <string name="balance_is_not_enough">الرصيد ليس كافيًا</string>
+    <string name="wallet_not_found">محفظة غير موجود</string>
+    <string name="transactions_list">قائمة المعاملات</string>
+    <string name="charge_code_applied_successfully">تم تطبيق رمز الشحن بنجاح</string>
+    <string name="withdraw_amount"> سحب المبلغ</string>
+    <string name="balance_is_low">قائمة المعاملات</string>
+    <string name="accounts_charge">شحن الحساب </string>
+    <string name="send_money">إرسال نقود </string>
+    <string name="remain_balance">الرصيد المتبقي</string>
+
+    <string name="trip">رحلة</string>
+    <string name="charge_by_cash">الشحن نقداً </string>
+    <string name="charge_by_code">الشحن عن طريق الرمز</string>
+    <string name="transfered_by_user">تحولت من قبل المستخدم</string>
+    <string name="transfered_to_user">حولت الى المستخدم </string>
+    <string name="transfered_by_provider">تحولت من قبل الكابتن</string>
+    <string name="transfered_to_provider">حولت الى الكابتن</string>
+    <string name="withdraw">سحب</string>
+    <string name="confirmed">تأكيد</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="rejected">مرفوض</string>
+    <string name="request">طلب</string>
+    <string name="wallet_id">معرف المحفظة</string>
+    <string name="balance">رصيد</string>
+    <string name="charge_code">رمز الشحن</string>
+    <string name="send">إرسال</string>
+    <string name="invalid_charge_code">رمز الشحن غير صالح</string>
+    <string name="are_you_sure_for_send_money_to">هل أنت متأكد من إرسال الأموال إلى</string>
+    <string name="wallet_commission">عمولة</string>
+    <string name="internet">الرجاء التحقق من اتصالك بالانترنت . ربما يكون الاتصال ضعيف او غير متصل</string>
+
+
+
+
+
+    <!--Google map-->
+    <!--string name="google_map_api">AIzaSyDStEHD8qw0Ng7lDxM5h3ZI5DtlMQVwd_w</string>-->
+    <string name="google_map_api">AIzaSyDN3uWFHBmQOM3eTJ635_cgcFA8HvcVDoU</string>
+
+    <!-- Facebook Login Key  -->
+    <!--<string name="facebook_app_id">1771763759506843</string>-->
+    <!--string name="facebook_app_id">2106559419593599</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">7111257bfe7aaab6ee47060bf85426ac</string>-->
+
+    <string name="FACEBOOK_APP_ID">775580432823091</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">37b3ecd0f1b894ba351ca0df105b25cb</string>
+    <string name="please_wait">أرجو الإنتظار</string>
+    <!--navigation_drawer-->
+    <string name="navigation_drawer_open">فتح درج التنقل</string>
+    <string name="navigation_drawer_close">إغلاق درج التنقل</string>
+
+
+    <string name="waitingForApproval">في انتظار التحقق.</string>
+
+    <string name="action_settings">إعدادات</string>
+
+    <!--Activity Begin-->
+    <string name="get_moving_with_taxialaan">استخدم تكسي الآن</string>
+    <string name="or_connect_with_social_media">او سجل عن طريق شبكات التواصل الإجتماعي</string>
+
+    <!--Activity Email -->
+
+    <!--Activity Password -->
+    <string name="i_forgot_my_password">لقد نسيت كلمة المرور</string>
+    <string name="i_need_to_create_an_account">أحتاج إلى إنشاء حساب</string>
+
+
+    <!--Activity Register-->
+    <string name="email">البريد الإلكتروني</string>
+    <string name="name">الاسم</string>
+    <string name="phone_number">رقم الموبايل</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="last_name">اسم العائلة</string>
+    <string name="Introducer_code">كود التعريف</string>
+    <!-- Activity ForgetPassword -->
+    <string name="pls_wait">ارجوك انتظر...</string>
+
+    <!-- Edit Activity-->
+    <string name="edit_profile">تحرير الحساب</string>
+    <string name="change_password">هل تريد تغيير كلمة المرور؟</string>
+    <string name="save">حفظ</string>
+    <string name="update_success">تم تحديث الملف الشخصي</string>
+
+    <!--Show Dailog-->
+    <string name="connect_to_network">الاتصال بالشبكة</string>
+    <string name="connect_to_wifi">الاتصال واي فاي</string>
+    <string name="quit">خروج</string>
+    <string name="cancel_ride">الغاء الرحلة</string>
+    <string name="cencel_request">هل أنت متأكد من إلغاء الرحلة؟</string>
+    <string name="exit_confirm">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+
+
+    <!-- Error Messages-->
+    <string name="something_went_wrong">هناك خطأ ما.</string>
+    <string name="something_went_wrong_net">حدث خطأ ما، يرجى التحقق من الإتصال بالإنترنت.</string>
+    <string name="server_down">تعذر الوصول إلى الخادم.</string>
+    <string name="please_try_again">حاول مرة اخرى.</string>
+    <string name="first_name_empty">الاسم الأول مطلوب.</string>
+    <string name="last_name_empty">اسم العائلة مطلوب.</string>
+    <string name="mobile_number_empty">رقم الموبايل مطلوب.</string>
+    <string name="request_reject">تم رفض الطلب بنجاح</string>
+    <string name="request_accept">تم قبول الطلب بنجاح</string>
+    <string name="reject">رفض</string>
+    <string name="accept">قبول</string>
+    <string name="request_cancel">لقد ألغيت الطلب</string>
+
+
+    <!--Approval status-->
+    <string name="approved">تمت الموافقه</string>
+    <string name="banned">حسابك موقوف</string>
+    <string name="waiting_for_approval">انتظار الموافقه</string>
+
+    <!--Wallet Fragment-->
+    <string name="your_wallet_amount">مبلغ محفظتك هو</string>
+    <string name="sample_amount">نموذج المبلغ</string>
+
+    <!--Offline Activity -->
+    <string name="go_online">الدخول للتطبيق</string>
+    <string name="go_offline"> الخروج من التطبيق</string>
+
+    <!--Invalid Username and Password-->
+
+
+    <string name="ratetrip">تقييم الرحلة</string>
+    <string name="write">اكتب تعليقاتك</string>
+
+    <!--Your Trips-->
+    <string name="history">الرحلات السابقة</string>
+    <string name="comments">الملاحظات</string>
+    <string name="no_trips">لا يوجد رحلات</string>
+    <string name="no_upcoming_trips">لا يوجد رحلات لاحقة</string>
+    <string name="no_rides">لا يوجد زبائن</string>
+    <string name="upcoming">الرحلات اللاحقة</string>
+    <string name="past">الرحلات السابقة</string>
+    <string name="payment_methods">طرق الدفع</string>
+    <string name="yourtrip">رحلاتك</string>
+
+    <string name="pasttrip">السابقة</string>
+
+    <string name="call">إتصل هاتفيا</string>
+
+    <!--Flow status -->
+    <string name="tap_when_arrived">اضغط عند الوصول</string>
+    <string name="tap_when_pickedup">اضغط عند تحميل الزبون</string>
+    <string name="tap_when_dropped">اضغط عند مغادرة الزبون</string>
+    <string name="tap_when_paid">اضغط عند الدفع</string>
+    <string name="rate_user">تقيم الزبون</string>
+
+
+    <!--Change Password-->
+    <string name="change_password_title">تغيير كلمة المرور</string>
+    <string name="current_password">كلمة المرور الحالية</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="confirm_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="please_enter_current_pass">الرجاء إدخال كلمة المرور الحالية.</string>
+    <string name="please_enter_new_pass">الرجاء إدخال كلمة مرور جديدة.</string>
+    <string name="please_enter_confirm_pass">الرجاء إدخال كلمة مرور التأكيد.</string>
+    <string name="different_passwords">كلمة المرور لا متطابقة.</string>
+
+
+    <!--Side Navigation Menu -->
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="your_trips">رحلاتك</string>
+    <string name="wallet">محفظة نقود</string>
+    <string name="help">مساعدة</string>
+    <string name="earnings">أرباح</string>
+    <string name="share">شارك</string>
+    <string name="logout">الخروج</string>
+    <string name="valid_image">لم يتم العثور على أي صورة</string>
+    <string name="user_no_mobile">ليس لدى المستخدم رقم موبايل صحيح.</string>
+    <string name="request_time_out">انتهى الوقت ، يوجد خطأ</string>
+    <string name="cancel_confirm">هل أنت متأكد من إلغاء ركوب؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="service">الخدمات</string>
+    <string name="no_services">لم يتم تعيين أية خدمات</string>
+    <string name="no_comments">لا يوجد تعليق</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="sos_confirm">هل أنت متأكد من متابعة مكالمة الطوارئ؟</string>
+    <string name="pick_up">اختر موقعا </string>
+    <string name="drop_at">اختر مكان الوصول</string>
+    <string name="reason_to_cancel">سبب الإلغاء</string>
+    <string name="booking_id_colon">رقم تعريف الحجز : </string>
+    <string name="booking_id">رقم تعريف الحجز</string>
+    <string name="reason">السبب</string>
+    <string name="submit">ارسل</string>
+    <string name="summary">ملخص</string>
+    <string name="total_rides">مجموع الرحلات</string>
+    <string name="revenue">إيرادات</string>
+    <string name="schedule_rides">عدد الرحلات اللاحقة</string>
+    <string name="canceled_rides">الرحلات الملغية</string>
+    <string name="rides">الرحلات</string>
+    <string name="upcoming_rides">الرحلات اللاحقة</string>
+    <string name="help_msg">إتصل بنا</string>
+    <string name="no_address">لا يتوفر عنوان</string>
+    <string name="first_name_no_number">الاسم الأول بدون أرقام</string>
+    <string name="last_name_no_number">اسم العائلة بدون أرقام</string>
+    <string name="select_language">اختار اللغة</string>
+    <string name="register_title">أدخل التفاصيل الخاصة بك للتسجيل</string>
+    <string name="choose_language">اختر لغتك</string>
+    <string name="confirm">تأكيد </string>
+    <string name="total_earnings">مجموع الأرباح</string>
+    <string name="amount">المبلغ</string>
+    <string name="distance">المسافة</string>
+    <string name="time">الوقت</string>
+    <string name="target">معدل الإنجاز لليوم</string>
+    <string name="language">تغير اللغة</string>
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="kurdish">Kurdî</string>
+
+    <string name="enter_your_mobile_number">أدخل رقم هاتفك المحمول</string>
+    <string name="what_s_your_phone_number">ما هو رقم هاتفك؟</string>
+    <string name="email_optional">Email (اختياري)</string>
+    <string name="total">مجموع</string>
+    <string name="cash">السيولة النقدية</string>
+
+    <string name="Pay_By_User_Wallet">تم الدفع من محفظة المستخدم</string>
+    <string name="Pay_By_User_In_Cash"> تم الدفع من المستخدم نقداً</string>
+    <string name="Transfer_To_User_Wallet"> تم التحويل الى محفظة المستخدم</string>
+
+    <string name="AmountisLess">المبلغ المدخل هو اقل من سعر الرحلة</string>
+
+    <string name="Travel_costs">تكلفة الرحلات</string>
+    <string name="Discount">خصم</string>
+
+    <!--<string-array name="select_language">
+    <item>English</item>
+    <item>عربى</item>
+    <item>كوردي</item>
+    </string-array>-->
+
+</resources>
